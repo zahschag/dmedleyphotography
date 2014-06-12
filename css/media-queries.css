@@ -1,0 +1,85 @@
+/*Media Queries for generic devices*/
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape){
+	/*
+	Add smartphone css here
+	*/
+}
+
+@media only screen and (min-device-width:1224px){
+
+	/*
+	*	ADD YOUR Desktop and Laptop CSS HERE
+	*/
+}
+
+@media only screen and (min-device-width:1824px){
+
+	/*
+	*	ADD YOUR Desktop and Laptop CSS HERE
+	*/
+
+}
+/* 
+
+
+****************   Apple Devices  *****************
+
+
+*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+	/*
+	* 			ADD IPAD CSS HERE (Both Portrait and landscape)
+	*/
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){
+
+	/*
+	*		ADD IPAD CSS HERE (LANDSCAPE ONLY)
+	*/
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+
+	/*
+	*		ADD IPAD CSS HERE (PORTRAIT ONLY)
+	*/
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px){
+	/*
+	*		ADD IPHONE 5 CSS HERE (BOTH PORTRAIT AND LANDSCAPE)
+	*/
+}
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:landscape){
+	/*
+	*		ADD IPHONE 5 CSS HERE (LANDSCAPE)
+	*/
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait){
+	/*
+	*		ADD IPHONE 5 CSS HERE (PORTRAIT)
+	*/
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+	/*
+	*	ADD YOUR iPhone CSS HERE
+	*/
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:landscape) { 
+	/*
+	*	ADD YOUR iPhone CSS HERE
+	*/
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) { 
+	/*
+	*	ADD YOUR iPhone CSS HERE
+	*/
+}
+
+
+
