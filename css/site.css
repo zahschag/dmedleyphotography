@@ -30,7 +30,7 @@ MAIN DROPDOWN NAVIGATION*/
 
 #nav{
 	list-style:none;
-	margin: 0px 10px 0px 5px; 
+	margin: 0px 50px 0px 5px; 
 	padding:0; 
 	display:block;
 
@@ -43,7 +43,6 @@ MAIN DROPDOWN NAVIGATION*/
 }
 #nav > li{
 	margin-top:100px;
-	margin-right:50px;
 }
 #nav li a{
 	display:block;
