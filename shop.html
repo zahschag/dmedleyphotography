@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Daniel Medley Photography | Home </title>
+		<title>Daniel Medley Photography | Shop </title>
 		<link rel="stylesheet" type="text/css" href="css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
@@ -11,22 +11,33 @@
 	<body>
 	<div id="wrapper">
 		<!--Start of navigation -->
-		<nav>
-			<ul>
-				<li class="active"><a href="#">Home</a></li>
+		
+			<ul id="nav" class="cf">
+				<li><a href="index.html">Home</a></li>
 				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="#">Shop</a></li>
+
+				<li><a href="shop.html">
+					Shop
+					<ul>
+						<li><a href="prints.html">Prints</a></li>
+						<li><a href="producst.html">Products</a></li>
+					</ul>
+				</li>
+
 				<li><a href="#">About</a></li>
 			</ul>
-		</nav>
-		</div id="main-bg">
-			<img src="/images/centenial-park-cropped.jpg>" alt="none" height="100%" width="100%">
+
+		<div>
+			<p> COMING SOON!</p>
 		</div>
-	</div>
-	<footer>
+
+		<div> 
+		<footer>
 		<p> Daniel Medley &copy; <?php echo date("Y");?>2014 </p>
 	</footer>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</div>
+	</div> <!-- Wrapper ends here -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/site.js"></script>
 	</body>
 </html>
