@@ -39,6 +39,7 @@ MAIN DROPDOWN NAVIGATION*/
 	float:right; 
 	position:relative; 
 	display:block;
+	margin-right: 50px;
 
 }
 #nav > li{
