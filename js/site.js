@@ -12,7 +12,11 @@ $(function(){
         console.log(this); //console.log to confirm that this will trigger the event
         that.children('ul') //find the children of ul closest to the anchor that was hovered on 
        		.show(this); // will trigger the event
-       	image.css('margin-top', '+75px');
+            if(that.has('ul')){
+                    image.css('margin-top', '0');
+            }else{
+                image.css('margin-top', '+75px');
+            }
         return false; //return false to escape the event and be able to repeat it
 
     });
@@ -23,7 +27,7 @@ $(function(){
         var that = $(this);
         that.children('ul')//Traversing the ul closest to the anchor
         	.hide(this);//hide the subnavigation
-        image.css('margin-top', '-50px');
+        image.css('margin-top', '0px');
         return false;//return false to escape the event and be able to repeat it
     });
 //-- ACTIVE CLASS SELECTOR
