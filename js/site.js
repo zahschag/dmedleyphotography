@@ -30,7 +30,28 @@ $(function(){
         image.css('margin-top', '0px');
         return false;//return false to escape the event and be able to repeat it
     });
-//-- ACTIVE CLASS SELECTOR
+//Lightbox code
+
+$('.fancybox-buttons').fancybox({
+                openEffect  : 'none',
+                closeEffect : 'none',
+
+                prevEffect : 'none',
+                nextEffect : 'none',
+
+                closeBtn  : true,
+
+                helpers : {
+                    title : {
+                        type : 'inside'
+                    },
+                    buttons : {}
+                },
+
+                afterLoad : function() {
+                    this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+                }
+            });
 
 
 });
