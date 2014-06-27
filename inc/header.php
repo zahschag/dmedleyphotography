@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/site.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css"  media="screen and (max-device-width: 1024px) and (orientation:landscape" href="css/media-queries.css">
+		<link rel="stylesheet" type="text/css" href="jquery-slideshow-plugin/plugin.css">
 	</head>
 		
 	<body>

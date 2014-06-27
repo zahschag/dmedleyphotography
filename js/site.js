@@ -8,8 +8,6 @@ $(function(){
     dropmenu.bind('mouseenter', function () {
     	//I couldn't figure out why I coulnd't make the $(this) factory call a global variable making it be available to each function but with a different
         var that = $(this);
-        
-        console.log(this); //console.log to confirm that this will trigger the event
         that.children('ul') //find the children of ul closest to the anchor that was hovered on 
        		.show(this); // will trigger the event
             if(that.has('ul')){
@@ -52,6 +50,5 @@ $('.fancybox-buttons').fancybox({
                     this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
                 }
             });
-
-
 });
+

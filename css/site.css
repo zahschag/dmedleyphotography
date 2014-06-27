@@ -96,46 +96,13 @@ li.active {
 #nav ul li:hover > a{background:#404040;}
 
 #main-bg{
-	position:relative;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
+	clear:both;
+	margin-bottom:50px;
+	opacity: .2;
 
-
-}
-
-#main-bg img{
-	position:absolute;
-	left:0;
-	-webkit-transition: opacity 1s ease-in-out;
-  	-moz-transition: opacity 1s ease-in-out;
-  	-o-transition: opacity 1s ease-in-out;
-  	transition: opacity 1s ease-in-out;
-	margin-top:50px;
-}
-@-webkit-keyframes main-bgFadeInOut{
-	0%{
-		opacity:.20;
-	}
-	17%{
-		opacity: .20;
-	}
-	25%{
-		opacity:0;
-	}
-	92%{
-		opacity:0;
-	}
-	100%{
-		opacity:.20;
-	}
-}
-#main-bg img.first-img {
-	animation-name: main-bgFadeInOut;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-	animation-duration: 10s;
-	animation-direction: alternate;
 }
 
 div > p{
@@ -224,15 +191,72 @@ About me Styles
 
 ===============================
 */
-
-#about-me-section{
-	max-width: 100%;
+#about-me-section h1{
+	text-align: center;
+	margin-right:40px;
+	margin-top:25px;
 }
+#about-me-section{
+	width: 100%;
+}
+#about-me-section > .placehold3{
+	width: 90%;
+	height:auto;
+	background-color:#000;
+	clear:none;
+	display:inline;
+	z-index: 20;
+	border:none;
+}
+#about-me-section > .placehold3 > img{
+	border: 10px solid #e2e2e2;
+}
+
 #about-me{
 	width: 400px;
 	float:right;
-	margin-right:190px;
-	margin-top:30px;
+	margin-right:400px;
 	display:inline-block;
 }
+/*=============================
 
+Contact form 
+
+===============================
+*/
+h2{
+	text-align: center;
+	margin-right:40px;
+}
+form {width: 375px; margin: 34px auto; color:#000; margin-right:445px;}
+form tr {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+}
+form table {width: 375px; margin-bottom: 16px;}
+form th {
+    width: 85px;
+    border-right: 1px solid #e2e2e2;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 15px 15px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+form input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #8e8e46;
+    background: #e2e2e2;
+    color: #000;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
